@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Desafio do Herói DIO</title>
+</head>
+<body>
+  <h1>Desafio do herói DIO</h1>
+
+  <div class="card-box">
+
+  <form id="heroForm">
+    <label for="heroName">Nome do Herói:</label>
+    <input type="text" id="heroName" required>
+
+    <label for="heroAge">Idade do Herói:</label>
+    <input type="number" id="heroAge" required>
+
+    <label for="heroType">Tipo do Herói:</label>
+    <select id="heroType" required>
+      <option value="mago">Mago</option>
+      <option value="guerreiro">Guerreiro</option>
+      <option value="monge">Monge</option>
+      <option value="ninja">Ninja</option>
+    </select>
+
+    <button type="button" onclick="criarHeroi()">Criar Herói</button>
+  </form>
+
+  <p id="resultado"></p>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

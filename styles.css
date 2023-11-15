@@ -1,0 +1,25 @@
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+}
+#resultado {
+  font-weight: bold;
+  font-size: x-large;
+  color: red;
+}
+.card-box {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+}
